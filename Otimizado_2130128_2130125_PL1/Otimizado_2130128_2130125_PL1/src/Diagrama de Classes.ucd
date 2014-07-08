@@ -1,0 +1,1329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="bonus1" size="5043,3033" id="bonus" metadata="uml2-1.0" initialized="true" scrolledX="999" scrolledY="2506" tag="1000" key="32303037303533312D31303030204F74696D697A61646F5F323133303132385F323133303132355F504C312F4361726C6F7320557262616E6F">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.58/@sourceConnections.0" name="BonusImediato" location="652,2140" size="578,103" id="bonus/BonusImediato" runTimeClassModel="executarBonusImediato(),BonusImediato(Lpaineis.PainelBonus;Ljava.lang.String;ILoutros.Posicao;Ljava.lang.String;),executarSelecao()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="143,54">
+      <children xsi:type="editmodel:MethodEditModel" name="BonusImediato" id="bonus/BonusImediato#BonusImediato(Lpaineis.PainelBonus;Ljava.lang.String;ILoutros.Posicao;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="executarBonusImediato" id="bonus/BonusImediato#executarBonusImediato()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="executarSelecao" id="bonus/BonusImediato#executarSelecao()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="bonus/Bonus&lt;-bonus/BonusImediato" source="//@children.0" target="//@children.3/@sourceConnections.0" targetEnd="//@children.0/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="289,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Trovao" location="3188,2928" size="278,81" id="elementos/Trovao" runTimeClassModel="Trovao(Lcelulas.Bloco;Loutros.Corrente;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="64,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Trovao" id="elementos/Trovao#Trovao(Lcelulas.Bloco;Loutros.Corrente;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="elementos/ElementoBonus&lt;-elementos/Trovao" source="//@children.1" target="//@children.5/@sourceConnections.0" targetEnd="//@children.1/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="139,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Corrente" location="1836,217" size="254,171" id="outros/Corrente" runTimeClassModel="decrementarNivel(),getNivel(),Corrente(I),getCellRepresentation(),isNivelMaximo(),niveladorCorrente">
+    <children xsi:type="editmodel:CompartmentEditModel" size="198,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="niveladorCorrente" id="outros/Corrente#niveladorCorrente"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="135,90">
+      <children xsi:type="editmodel:MethodEditModel" name="Corrente" id="outros/Corrente#Corrente(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="decrementarNivel" id="outros/Corrente#decrementarNivel()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCellRepresentation" id="outros/Corrente#getCellRepresentation()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNivel" id="outros/Corrente#getNivel()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isNivelMaximo" id="outros/Corrente#isNivelMaximo()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/SaberNivel&lt;-outros/Corrente" source="//@children.2" target="//@children.61/@sourceConnections.1" targetEnd="//@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="126,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/SaberNivelMaximo&lt;-outros/Corrente" source="//@children.2" target="//@children.61/@sourceConnections.2" targetEnd="//@children.2/@sourceConnections.1/@children.1" sourceEnd="//@children.2/@sourceConnections.1/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="127,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/Decrementavel&lt;-outros/Corrente" source="//@children.2" target="//@children.61/@sourceConnections.3" targetEnd="//@children.2/@sourceConnections.2/@children.1" sourceEnd="//@children.2/@sourceConnections.2/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="127,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.39/@sourceConnections.0" autoLocated="true" id="identificadores/Identificador&lt;-outros/Corrente" source="//@children.2" target="//@children.60" targetEnd="//@children.2/@sourceConnections.3/@children.1" sourceEnd="//@children.2/@sourceConnections.3/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="127,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="127,117" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.50/@sourceConnections.0" name="BonusNormal" location="50,2140" size="572,157" id="bonus/BonusNormal" runTimeClassModel="sombrear(Lcelulas.Bloco;),getBlocosInfluenciados(Lcelulas.Bloco;),BonusNormal(Lpaineis.PainelBonus;Ljava.lang.String;ILoutros.Posicao;Ljava.lang.String;),destruir(Lcelulas.Bloco;),executarSelecao(),executar(Lcelulas.Bloco;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="294,108">
+      <children xsi:type="editmodel:MethodEditModel" name="BonusNormal" id="bonus/BonusNormal#BonusNormal(Lpaineis.PainelBonus;Ljava.lang.String;ILoutros.Posicao;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="destruir" id="bonus/BonusNormal#destruir(Lcelulas.Bloco;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="executar" id="bonus/BonusNormal#executar(Lcelulas.Bloco;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="executarSelecao" id="bonus/BonusNormal#executarSelecao()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBlocosInfluenciados" id="bonus/BonusNormal#getBlocosInfluenciados(Lcelulas.Bloco;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="sombrear" id="bonus/BonusNormal#sombrear(Lcelulas.Bloco;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.0/@sourceConnections.0" autoLocated="true" id="bonus/Bonus&lt;-bonus/BonusNormal" source="//@children.3" target="//@children.23" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="286,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="269,265" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.41/@sourceConnections.0" name="BonusDestruidorTotal" location="701,2775" size="611,85" id="bonus/BonusDestruidorTotal" runTimeClassModel="destruir(Lcelulas.Bloco;),BonusDestruidorTotal(Lpaineis.PainelBonus;Ljava.lang.String;ILoutros.Posicao;Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="133,36">
+      <children xsi:type="editmodel:MethodEditModel" name="BonusDestruidorTotal" id="bonus/BonusDestruidorTotal#BonusDestruidorTotal(Lpaineis.PainelBonus;Ljava.lang.String;ILoutros.Posicao;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="destruir" id="bonus/BonusDestruidorTotal#destruir(Lcelulas.Bloco;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="bonus/BonusNormal&lt;-bonus/BonusDestruidorTotal" source="//@children.4" target="//@children.50/@sourceConnections.0" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="305,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Martelo" location="3812,2928" size="279,81" id="elementos/Martelo" runTimeClassModel="Martelo(Lcelulas.Bloco;Loutros.Corrente;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="65,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Martelo" id="elementos/Martelo#Martelo(Lcelulas.Bloco;Loutros.Corrente;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.17/@sourceConnections.0 //@children.1/@sourceConnections.0 //@children.42/@sourceConnections.0 //@children.15/@sourceConnections.0 //@children.11/@sourceConnections.0 //@children.53/@sourceConnections.0" autoLocated="true" id="elementos/ElementoBonus&lt;-elementos/Martelo" source="//@children.5" target="//@children.16" targetEnd="//@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="139,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="210,99" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.66/@sourceConnections.0" name="AcessivelJogo" location="3955,1019" size="132,57" id="interfaces/AcessivelJogo" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/AcessivelPainelPrincipal&lt;-interfaces/AcessivelJogo" source="//@children.6" target="//@children.51/@sourceConnections.2" targetEnd="//@children.6/@sourceConnections.0/@children.1" sourceEnd="//@children.6/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="66,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/AcessivelPainelBonus&lt;-interfaces/AcessivelJogo" source="//@children.6" target="//@children.30/@sourceConnections.0" targetEnd="//@children.6/@sourceConnections.1/@children.1" sourceEnd="//@children.6/@sourceConnections.1/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="66,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="NiveladorCorrente" location="1621,510" size="260,81" id="delegacoes/NiveladorCorrente" runTimeClassModel="NiveladorCorrente(II)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="117,18">
+      <children xsi:type="editmodel:MethodEditModel" name="NiveladorCorrente" id="delegacoes/NiveladorCorrente#NiveladorCorrente(II)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="delegacoes/Nivelador&lt;-delegacoes/NiveladorCorrente" source="//@children.7" target="//@children.62/@sourceConnections.1" targetEnd="//@children.7/@sourceConnections.0/@children.1" sourceEnd="//@children.7/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="130,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.63/@sourceConnections.1 //@children.62/@sourceConnections.0 //@children.26/@sourceConnections.2" name="SaberNivelZeroVida" location="3808,217" size="173,95" id="interfaces/SaberNivelZeroVida" runTimeClassModel="isVidaNivelZero()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="106,18">
+      <children xsi:type="editmodel:MethodEditModel" name="isVidaNivelZero" id="interfaces/SaberNivelZeroVida#isVidaNivelZero()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.38/@sourceConnections.1 //@children.70/@sourceConnections.4" name="SaberPosicaoIgual" location="50,50" size="269,95" id="interfaces/SaberPosicaoIgual" runTimeClassModel="isPosicaoIgual(Loutros.Posicao;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="98,18">
+      <children xsi:type="editmodel:MethodEditModel" name="isPosicaoIgual" id="interfaces/SaberPosicaoIgual#isPosicaoIgual(Loutros.Posicao;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Camarao" location="2029,2140" size="287,81" id="elementos/Camarao" runTimeClassModel="Camarao(Lcelulas.Bloco;Loutros.Corrente;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="73,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Camarao" id="elementos/Camarao#Camarao(Lcelulas.Bloco;Loutros.Corrente;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="elementos/ElementoComCorrente&lt;-elementos/Camarao" source="//@children.10" target="//@children.54/@sourceConnections.0" targetEnd="//@children.10/@sourceConnections.0/@children.1" sourceEnd="//@children.10/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="143,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Raio" location="2279,2928" size="265,81" id="elementos/Raio" runTimeClassModel="Raio(Lcelulas.Bloco;Loutros.Corrente;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="51,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Raio" id="elementos/Raio#Raio(Lcelulas.Bloco;Loutros.Corrente;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="elementos/ElementoBonus&lt;-elementos/Raio" source="//@children.11" target="//@children.5/@sourceConnections.0" targetEnd="//@children.11/@sourceConnections.0/@children.1" sourceEnd="//@children.11/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="132,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.23/@sourceConnections.0" name="IdentificadorComPainel" location="425,510" size="433,153" id="identificadores/IdentificadorComPainel" runTimeClassModel="IdentificadorComPainel(Ljava.lang.String;LTipoPainel;Loutros.Posicao;),posicao,painel,getPainel(),getPosicao()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="101,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="painel" id="identificadores/IdentificadorComPainel#painel"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="posicao" id="identificadores/IdentificadorComPainel#posicao"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="138,54">
+      <children xsi:type="editmodel:MethodEditModel" name="IdentificadorComPainel" id="identificadores/IdentificadorComPainel#IdentificadorComPainel(Ljava.lang.String;LTipoPainel;Loutros.Posicao;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPainel" id="identificadores/IdentificadorComPainel#getPainel()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPosicao" id="identificadores/IdentificadorComPainel#getPosicao()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="identificadores/IdentificadorSabePosicao&lt;-identificadores/IdentificadorComPainel" source="//@children.12" target="//@children.70/@sourceConnections.0" targetEnd="//@children.12/@sourceConnections.0/@children.1" sourceEnd="//@children.12/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="216,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.61/@sourceConnections.2" name="SaberNivelMaximo" location="1748,50" size="164,95" id="interfaces/SaberNivelMaximo" runTimeClassModel="isNivelMaximo()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="97,18">
+      <children xsi:type="editmodel:MethodEditModel" name="isNivelMaximo" id="interfaces/SaberNivelMaximo#isNivelMaximo()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.51/@sourceConnections.2" name="AcessivelPainelPrincipal" location="3665,510" size="217,149" id="interfaces/AcessivelPainelPrincipal" runTimeClassModel="limparGrelha(),getListaBlocos(),getIteracao(),isConcluido()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="101,72">
+      <children xsi:type="editmodel:MethodEditModel" name="getIteracao" id="interfaces/AcessivelPainelPrincipal#getIteracao()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getListaBlocos" id="interfaces/AcessivelPainelPrincipal#getListaBlocos()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isConcluido" id="interfaces/AcessivelPainelPrincipal#isConcluido()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="limparGrelha" id="interfaces/AcessivelPainelPrincipal#limparGrelha()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/Acessivel&lt;-interfaces/AcessivelPainelPrincipal" source="//@children.14" target="//@children.37/@sourceConnections.0" targetEnd="//@children.14/@sourceConnections.0/@children.1" sourceEnd="//@children.14/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="108,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Estrela" location="2574,2928" size="277,81" id="elementos/Estrela" runTimeClassModel="Estrela(Lcelulas.Bloco;Loutros.Corrente;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="63,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Estrela" id="elementos/Estrela#Estrela(Lcelulas.Bloco;Loutros.Corrente;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="elementos/ElementoBonus&lt;-elementos/Estrela" source="//@children.15" target="//@children.5/@sourceConnections.0" targetEnd="//@children.15/@sourceConnections.0/@children.1" sourceEnd="//@children.15/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="138,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.0" name="ElementoBonus" location="2317,2775" size="420,99" id="elementos/ElementoBonus" runTimeClassModel="incrementarNivel(I),ElementoBonus(Ljava.lang.String;Lcelulas.Bloco;Loutros.Corrente;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="110,36">
+      <children xsi:type="editmodel:MethodEditModel" name="ElementoBonus" id="elementos/ElementoBonus#ElementoBonus(Ljava.lang.String;Lcelulas.Bloco;Loutros.Corrente;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="incrementarNivel" id="elementos/ElementoBonus#incrementarNivel(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.71/@sourceConnections.0" autoLocated="true" id="elementos/ElementoEspecial&lt;-elementos/ElementoBonus" source="//@children.16" target="//@children.54" targetEnd="//@children.16/@sourceConnections.0/@children.1" sourceEnd="//@children.16/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="210,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="196,81" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Granada" location="3496,2928" size="286,81" id="elementos/Granada" runTimeClassModel="Granada(Lcelulas.Bloco;Loutros.Corrente;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="72,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Granada" id="elementos/Granada#Granada(Lcelulas.Bloco;Loutros.Corrente;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="elementos/ElementoBonus&lt;-elementos/Granada" source="//@children.17" target="//@children.5/@sourceConnections.0" targetEnd="//@children.17/@sourceConnections.0/@children.1" sourceEnd="//@children.17/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="143,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="BonusGranada" location="812,2928" size="351,85" id="bonus/BonusGranada" runTimeClassModel="getBlocosInfluenciados(Lcelulas.Bloco;),BonusGranada(Lpaineis.PainelBonus;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="142,36">
+      <children xsi:type="editmodel:MethodEditModel" name="BonusGranada" id="bonus/BonusGranada#BonusGranada(Lpaineis.PainelBonus;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBlocosInfluenciados" id="bonus/BonusGranada#getBlocosInfluenciados(Lcelulas.Bloco;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="bonus/BonusDestruidorTotal&lt;-bonus/BonusGranada" source="//@children.18" target="//@children.41/@sourceConnections.0" targetEnd="//@children.18/@sourceConnections.0/@children.1" sourceEnd="//@children.18/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="175,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.49/@sourceConnections.0" name="Celula" location="960,1019" size="414,81" id="celulas/Celula" runTimeClassModel="Celula(Ljava.lang.String;Lpaineis.PainelPrincipal;Loutros.Posicao;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="59,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Celula" id="celulas/Celula#Celula(Ljava.lang.String;Lpaineis.PainelPrincipal;Loutros.Posicao;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="identificadores/IdentificadorComPainel&lt;-celulas/Celula" source="//@children.19" target="//@children.23/@sourceConnections.0" targetEnd="//@children.19/@sourceConnections.0/@children.1" sourceEnd="//@children.19/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="207,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,40"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.37/@sourceConnections.0" name="Acessivel" location="2240,217" size="270,203" id="interfaces/Acessivel" runTimeClassModel="destruicaoTotal(Lcelulas.Bloco;),getMaxX(),destruicaoParcial(Lelementos.Elemento;),nextInt(I),getBloco(Loutros.Posicao;),adicionarListaBlocosComSombra(Lcelulas.Bloco;),getMaxY()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="188,126">
+      <children xsi:type="editmodel:MethodEditModel" name="adicionarListaBlocosComSombra" id="interfaces/Acessivel#adicionarListaBlocosComSombra(Lcelulas.Bloco;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="destruicaoParcial" id="interfaces/Acessivel#destruicaoParcial(Lelementos.Elemento;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="destruicaoTotal" id="interfaces/Acessivel#destruicaoTotal(Lcelulas.Bloco;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBloco" id="interfaces/Acessivel#getBloco(Loutros.Posicao;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMaxX" id="interfaces/Acessivel#getMaxX()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMaxY" id="interfaces/Acessivel#getMaxY()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="nextInt" id="interfaces/Acessivel#nextInt(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/IncrementadorNivelVida&lt;-interfaces/Acessivel" source="//@children.20" target="//@children.59" targetEnd="//@children.20/@sourceConnections.0/@children.1" sourceEnd="//@children.20/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="224,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="44,95" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/IncrementadorNivelBonus&lt;-interfaces/Acessivel" source="//@children.20" target="//@children.67" targetEnd="//@children.20/@sourceConnections.1/@children.1" sourceEnd="//@children.20/@sourceConnections.1/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="73,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="230,95" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="NiveladorBonus" location="2259,1019" size="204,99" id="delegacoes/NiveladorBonus" runTimeClassModel="NiveladorBonus(I),inverterSelecionado()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="126,36">
+      <children xsi:type="editmodel:MethodEditModel" name="NiveladorBonus" id="delegacoes/NiveladorBonus#NiveladorBonus(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="inverterSelecionado" id="delegacoes/NiveladorBonus#inverterSelecionado()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="delegacoes/NiveladorReiniciavel&lt;-delegacoes/NiveladorBonus" source="//@children.21" target="//@children.28/@sourceConnections.0" targetEnd="//@children.21/@sourceConnections.0/@children.1" sourceEnd="//@children.21/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="102,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.70/@sourceConnections.3 //@children.49/@sourceConnections.1 //@children.23/@sourceConnections.3 //@children.63/@sourceConnections.3" name="Atualizavel" location="870,50" size="146,95" id="interfaces/Atualizavel" runTimeClassModel="atualizar(II)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="71,18">
+      <children xsi:type="editmodel:MethodEditModel" name="atualizar" id="interfaces/Atualizavel#atualizar(II)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.0" name="Bonus" location="391,1019" size="539,265" id="bonus/Bonus" runTimeClassModel="selecionar(),reporNivelZero(),niveladorBonus,incrementarNivel(I),getNome(),som,getCellRepresentation(),atualizar(II),executarSelecao(),isNivelMaximo(),Bonus(Lpaineis.PainelBonus;Ljava.lang.String;ILoutros.Posicao;Ljava.lang.String;),inverterSelecionado()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="176,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="niveladorBonus" id="bonus/Bonus#niveladorBonus"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="som" id="bonus/Bonus#som"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="135,180">
+      <children xsi:type="editmodel:MethodEditModel" name="Bonus" id="bonus/Bonus#Bonus(Lpaineis.PainelBonus;Ljava.lang.String;ILoutros.Posicao;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="atualizar" id="bonus/Bonus#atualizar(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="executarSelecao" id="bonus/Bonus#executarSelecao()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCellRepresentation" id="bonus/Bonus#getCellRepresentation()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNome" id="bonus/Bonus#getNome()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="incrementarNivel" id="bonus/Bonus#incrementarNivel(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="inverterSelecionado" id="bonus/Bonus#inverterSelecionado()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isNivelMaximo" id="bonus/Bonus#isNivelMaximo()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="reporNivelZero" id="bonus/Bonus#reporNivelZero()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="selecionar" id="bonus/Bonus#selecionar()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.63/@sourceConnections.0 //@children.19/@sourceConnections.0" autoLocated="true" id="identificadores/IdentificadorComPainel&lt;-bonus/Bonus" source="//@children.23" target="//@children.12" targetEnd="//@children.23/@sourceConnections.0/@children.1" sourceEnd="//@children.23/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="269,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="216,153" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/ReporNivel&lt;-bonus/Bonus" source="//@children.23" target="//@children.34" targetEnd="//@children.23/@sourceConnections.1/@children.1" sourceEnd="//@children.23/@sourceConnections.1/@children.0" connectionRouterKind="Manual" anchorType="ChopBox">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="384,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="20,95"/>
+      <bendpoints location="948,994" secondRelativeDimension="-497,682" firstRelativeDimension="37,-24"/>
+      <bendpoints location="948,485" secondRelativeDimension="-468,195" firstRelativeDimension="195,-532"/>
+      <bendpoints location="1373,485" secondRelativeDimension="-83,173" firstRelativeDimension="534,-531"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/Incrementavel&lt;-bonus/Bonus" source="//@children.23" target="//@children.65" targetEnd="//@children.23/@sourceConnections.2/@children.1" sourceEnd="//@children.23/@sourceConnections.2/@children.0" connectionRouterKind="Manual" anchorType="ChopBox">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="279,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="97,95"/>
+      <bendpoints location="391,994" secondRelativeDimension="-371,849" firstRelativeDimension="-48,-24"/>
+      <bendpoints location="125,994" secondRelativeDimension="-622,849" firstRelativeDimension="-309,-83"/>
+      <bendpoints location="125,485" secondRelativeDimension="-574,340" firstRelativeDimension="-462,-531"/>
+      <bendpoints location="490,485" secondRelativeDimension="-254,340" firstRelativeDimension="-170,-530"/>
+      <bendpoints location="490,192" secondRelativeDimension="-187,62" firstRelativeDimension="-183,-822"/>
+      <bendpoints location="637,192" secondRelativeDimension="-69,47" firstRelativeDimension="-56,-821"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/Atualizavel&lt;-bonus/Bonus" source="//@children.23" target="//@children.22" targetEnd="//@children.23/@sourceConnections.3/@children.1" sourceEnd="//@children.23/@sourceConnections.3/@children.0" connectionRouterKind="Manual" anchorType="ChopBox">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="304,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="60,95"/>
+      <bendpoints location="391,994" secondRelativeDimension="-565,849" firstRelativeDimension="-48,-24"/>
+      <bendpoints location="185,994" secondRelativeDimension="-759,849" firstRelativeDimension="-249,-75"/>
+      <bendpoints location="185,485" secondRelativeDimension="-727,353" firstRelativeDimension="-414,-531"/>
+      <bendpoints location="550,485" secondRelativeDimension="-381,340" firstRelativeDimension="-122,-530"/>
+      <bendpoints location="550,192" secondRelativeDimension="-360,80" firstRelativeDimension="-131,-822"/>
+      <bendpoints location="870,192" secondRelativeDimension="-55,47" firstRelativeDimension="144,-821"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="BonusBomba" location="431,2928" size="351,85" id="bonus/BonusBomba" runTimeClassModel="getBlocosInfluenciados(Lcelulas.Bloco;),BonusBomba(Lpaineis.PainelBonus;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="142,36">
+      <children xsi:type="editmodel:MethodEditModel" name="BonusBomba" id="bonus/BonusBomba#BonusBomba(Lpaineis.PainelBonus;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBlocosInfluenciados" id="bonus/BonusBomba#getBlocosInfluenciados(Lcelulas.Bloco;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.33/@sourceConnections.0" autoLocated="true" id="bonus/BonusDestruidorParcial&lt;-bonus/BonusBomba" source="//@children.24" target="//@children.50" targetEnd="//@children.24/@sourceConnections.0/@children.1" sourceEnd="//@children.24/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="175,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="310,85" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.36/@sourceConnections.1 //@children.70/@sourceConnections.1 //@children.66/@sourceConnections.1 //@children.63/@sourceConnections.2" name="Iteravel" location="3016,217" size="90,95" id="interfaces/Iteravel" runTimeClassModel="iterar()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="55,18">
+      <children xsi:type="editmodel:MethodEditModel" name="iterar" id="interfaces/Iteravel#iterar()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="PainelVida" location="4177,1019" size="307,207" id="paineis/PainelVida" runTimeClassModel="vida,incrementarNivelVida(I),iterar(),mousePressed(Ljava.awt.event.MouseEvent;II),atualizar(II),isVidaNivelZero(),iniciar(),PainelVida(Loutros.Jogo;Lpt.ipleiria.estg.dei.gridpanel.GridPanel;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="67,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="vida" id="paineis/PainelVida#vida"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="132,126">
+      <children xsi:type="editmodel:MethodEditModel" name="PainelVida" id="paineis/PainelVida#PainelVida(Loutros.Jogo;Lpt.ipleiria.estg.dei.gridpanel.GridPanel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="atualizar" id="paineis/PainelVida#atualizar(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="incrementarNivelVida" id="paineis/PainelVida#incrementarNivelVida(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="iniciar" id="paineis/PainelVida#iniciar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isVidaNivelZero" id="paineis/PainelVida#isVidaNivelZero()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="iterar" id="paineis/PainelVida#iterar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mousePressed" id="paineis/PainelVida#mousePressed(Ljava.awt.event.MouseEvent;II)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.51/@sourceConnections.0" autoLocated="true" id="paineis/PainelIteravel&lt;-paineis/PainelVida" source="//@children.26" target="//@children.36" targetEnd="//@children.26/@sourceConnections.0/@children.1" sourceEnd="//@children.26/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="153,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="174,153" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/IncrementadorNivelVida&lt;-paineis/PainelVida" source="//@children.26" target="//@children.59" targetEnd="//@children.26/@sourceConnections.1/@children.1" sourceEnd="//@children.26/@sourceConnections.1/@children.0" connectionRouterKind="Manual" anchorType="ChopBox">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,15" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="218,95"/>
+      <bendpoints location="4400,994" secondRelativeDimension="1704,849" firstRelativeDimension="5,-24"/>
+      <bendpoints location="4400,485" secondRelativeDimension="1665,359" firstRelativeDimension="21,-532"/>
+      <bendpoints location="2720,485" secondRelativeDimension="106,340" firstRelativeDimension="-1499,-576"/>
+      <bendpoints location="2720,192" secondRelativeDimension="59,47" firstRelativeDimension="-1498,-841"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/SaberNivelZeroVida&lt;-paineis/PainelVida" source="//@children.26" target="//@children.8" targetEnd="//@children.26/@sourceConnections.2/@children.1" sourceEnd="//@children.26/@sourceConnections.2/@children.0" connectionRouterKind="Manual" anchorType="ChopBox">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="101,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="110,95"/>
+      <bendpoints location="4514,994" secondRelativeDimension="537,682" firstRelativeDimension="26,-24"/>
+      <bendpoints location="4700,994" secondRelativeDimension="711,682" firstRelativeDimension="171,-67"/>
+      <bendpoints location="4700,485" secondRelativeDimension="674,196" firstRelativeDimension="272,-531"/>
+      <bendpoints location="4011,485" secondRelativeDimension="57,173" firstRelativeDimension="-302,-530"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.52/@sourceConnections.0" name="ElementoSemCorrente" location="1849,1019" size="320,81" id="elementos/ElementoSemCorrente" runTimeClassModel="ElementoSemCorrente(Ljava.lang.String;Lcelulas.Bloco;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="136,18">
+      <children xsi:type="editmodel:MethodEditModel" name="ElementoSemCorrente" id="elementos/ElementoSemCorrente#ElementoSemCorrente(Ljava.lang.String;Lcelulas.Bloco;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="elementos/Elemento&lt;-elementos/ElementoSemCorrente" source="//@children.27" target="//@children.68/@sourceConnections.0" targetEnd="//@children.27/@sourceConnections.0/@children.1" sourceEnd="//@children.27/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="160,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="NiveladorBloco" location="2493,1019" size="245,81" id="delegacoes/NiveladorBloco" runTimeClassModel="NiveladorBloco(II)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="102,18">
+      <children xsi:type="editmodel:MethodEditModel" name="NiveladorBloco" id="delegacoes/NiveladorBloco#NiveladorBloco(II)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.21/@sourceConnections.0" autoLocated="true" id="delegacoes/NiveladorReiniciavel&lt;-delegacoes/NiveladorBloco" source="//@children.28" target="//@children.43" targetEnd="//@children.28/@sourceConnections.0/@children.1" sourceEnd="//@children.28/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="122,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="134,99" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Madeira" location="2346,2140" size="282,81" id="elementos/Madeira" runTimeClassModel="Madeira(Lcelulas.Bloco;Loutros.Corrente;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="68,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Madeira" id="elementos/Madeira#Madeira(Lcelulas.Bloco;Loutros.Corrente;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="elementos/ElementoComCorrente&lt;-elementos/Madeira" source="//@children.29" target="//@children.54/@sourceConnections.0" targetEnd="//@children.29/@sourceConnections.0/@children.1" sourceEnd="//@children.29/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="141,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="PainelBonus" location="2828,1019" size="349,477" id="paineis/PainelBonus" runTimeClassModel="getBonusSelecionado(),hashNomes,destruicaoParcial(Lelementos.Elemento;),nextInt(I),getNomeBonusSelecionado(),hashBonus,getBloco(Loutros.Posicao;),setBonusSelecionado(Lbonus.BonusNormal;),atualizar(II),destruicaoTotal(Lcelulas.Bloco;),bonusSelecionado,getMaxX(),getNomeBonus(I),getListaBlocos(),executarBonusSelecionado(Lcelulas.Bloco;),incrementarNivelVida(I),incrementarNivelBonus(Ljava.lang.String;I),adicionarListaBlocosComSombra(Lcelulas.Bloco;),getMaxY(),mousePressed(Ljava.awt.event.MouseEvent;II),iniciar(),PainelBonus(Loutros.Jogo;Lpt.ipleiria.estg.dei.gridpanel.GridPanel;),deselecionarBonus()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="205,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="bonusSelecionado" id="paineis/PainelBonus#bonusSelecionado"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="hashBonus" id="paineis/PainelBonus#hashBonus"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="hashNomes" id="paineis/PainelBonus#hashNomes"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="188,360">
+      <children xsi:type="editmodel:MethodEditModel" name="PainelBonus" id="paineis/PainelBonus#PainelBonus(Loutros.Jogo;Lpt.ipleiria.estg.dei.gridpanel.GridPanel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="adicionarListaBlocosComSombra" id="paineis/PainelBonus#adicionarListaBlocosComSombra(Lcelulas.Bloco;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="atualizar" id="paineis/PainelBonus#atualizar(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="deselecionarBonus" id="paineis/PainelBonus#deselecionarBonus()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="destruicaoParcial" id="paineis/PainelBonus#destruicaoParcial(Lelementos.Elemento;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="destruicaoTotal" id="paineis/PainelBonus#destruicaoTotal(Lcelulas.Bloco;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="executarBonusSelecionado" id="paineis/PainelBonus#executarBonusSelecionado(Lcelulas.Bloco;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBloco" id="paineis/PainelBonus#getBloco(Loutros.Posicao;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBonusSelecionado" id="paineis/PainelBonus#getBonusSelecionado()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getListaBlocos" id="paineis/PainelBonus#getListaBlocos()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMaxX" id="paineis/PainelBonus#getMaxX()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMaxY" id="paineis/PainelBonus#getMaxY()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNomeBonus" id="paineis/PainelBonus#getNomeBonus(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNomeBonusSelecionado" id="paineis/PainelBonus#getNomeBonusSelecionado()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="incrementarNivelBonus" id="paineis/PainelBonus#incrementarNivelBonus(Ljava.lang.String;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="incrementarNivelVida" id="paineis/PainelBonus#incrementarNivelVida(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="iniciar" id="paineis/PainelBonus#iniciar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mousePressed" id="paineis/PainelBonus#mousePressed(Ljava.awt.event.MouseEvent;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="nextInt" id="paineis/PainelBonus#nextInt(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setBonusSelecionado" id="paineis/PainelBonus#setBonusSelecionado(Lbonus.BonusNormal;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.6/@sourceConnections.1" autoLocated="true" id="interfaces/AcessivelPainelBonus&lt;-paineis/PainelBonus" source="//@children.30" target="//@children.37" targetEnd="//@children.30/@sourceConnections.0/@children.1" sourceEnd="//@children.30/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="174,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="174,167" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="paineis/Painel&lt;-paineis/PainelBonus" source="//@children.30" target="//@children.48" targetEnd="//@children.30/@sourceConnections.1/@children.1" sourceEnd="//@children.30/@sourceConnections.1/@children.0" connectionRouterKind="Manual" anchorType="ChopBox">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,165" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="312,187"/>
+      <bendpoints location="2828,994" secondRelativeDimension="1801,604" firstRelativeDimension="-44,-53"/>
+      <bendpoints location="365,994" secondRelativeDimension="-411,534" firstRelativeDimension="-2506,-245"/>
+      <bendpoints location="365,485" secondRelativeDimension="-347,102" firstRelativeDimension="-2505,-720"/>
+      <bendpoints location="670,485" secondRelativeDimension="-41,31" firstRelativeDimension="-2199,-713"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="BonusEstrela" location="1193,2928" size="351,85" id="bonus/BonusEstrela" runTimeClassModel="BonusEstrela(Lpaineis.PainelBonus;),getBlocosInfluenciados(Lcelulas.Bloco;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="142,36">
+      <children xsi:type="editmodel:MethodEditModel" name="BonusEstrela" id="bonus/BonusEstrela#BonusEstrela(Lpaineis.PainelBonus;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBlocosInfluenciados" id="bonus/BonusEstrela#getBlocosInfluenciados(Lcelulas.Bloco;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="bonus/BonusDestruidorTotal&lt;-bonus/BonusEstrela" source="//@children.31" target="//@children.41/@sourceConnections.0" targetEnd="//@children.31/@sourceConnections.0/@children.1" sourceEnd="//@children.31/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="175,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.70/@sourceConnections.2 //@children.49/@sourceConnections.5" name="Vizinhanca" location="2720,217" size="212,95" id="interfaces/Vizinhanca" runTimeClassModel="vizinhosNaoIteramBaixo()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="145,18">
+      <children xsi:type="editmodel:MethodEditModel" name="vizinhosNaoIteramBaixo" id="interfaces/Vizinhanca#vizinhosNaoIteramBaixo()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="BonusMartelo" location="50,2928" size="351,85" id="bonus/BonusMartelo" runTimeClassModel="getBlocosInfluenciados(Lcelulas.Bloco;),BonusMartelo(Lpaineis.PainelBonus;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="142,36">
+      <children xsi:type="editmodel:MethodEditModel" name="BonusMartelo" id="bonus/BonusMartelo#BonusMartelo(Lpaineis.PainelBonus;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBlocosInfluenciados" id="bonus/BonusMartelo#getBlocosInfluenciados(Lcelulas.Bloco;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="bonus/BonusDestruidorParcial&lt;-bonus/BonusMartelo" source="//@children.33" target="//@children.24/@sourceConnections.0" targetEnd="//@children.33/@sourceConnections.0/@children.1" sourceEnd="//@children.33/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="175,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.43/@sourceConnections.0 //@children.23/@sourceConnections.1" name="ReporNivel" location="1373,217" size="125,95" id="interfaces/ReporNivel" runTimeClassModel="reporNivelZero()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="102,18">
+      <children xsi:type="editmodel:MethodEditModel" name="reporNivelZero" id="interfaces/ReporNivel#reporNivelZero()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.51/@sourceConnections.1 //@children.49/@sourceConnections.2" name="Verificavel" location="4032,510" size="278,95" id="interfaces/Verificavel" runTimeClassModel="isBlocoSemElemento(Loutros.Posicao;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="129,18">
+      <children xsi:type="editmodel:MethodEditModel" name="isBlocoSemElemento" id="interfaces/Verificavel#isBlocoSemElemento(Loutros.Posicao;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.26/@sourceConnections.0" name="PainelIteravel" location="1971,510" size="348,153" id="paineis/PainelIteravel" runTimeClassModel="atualizarTempo(),passouTempoCadencia(),cADENCIA,tempo,PainelIteravel(Loutros.Jogo;Lpt.ipleiria.estg.dei.gridpanel.GridPanel;I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="88,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="cADENCIA" id="paineis/PainelIteravel#cADENCIA"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tempo" id="paineis/PainelIteravel#tempo"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="142,54">
+      <children xsi:type="editmodel:MethodEditModel" name="PainelIteravel" id="paineis/PainelIteravel#PainelIteravel(Loutros.Jogo;Lpt.ipleiria.estg.dei.gridpanel.GridPanel;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="atualizarTempo" id="paineis/PainelIteravel#atualizarTempo()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="passouTempoCadencia" id="paineis/PainelIteravel#passouTempoCadencia()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="paineis/Painel&lt;-paineis/PainelIteravel" source="//@children.36" target="//@children.48" targetEnd="//@children.36/@sourceConnections.0/@children.1" sourceEnd="//@children.36/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,10" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="302,243" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/Iteravel&lt;-paineis/PainelIteravel" source="//@children.36" target="//@children.25" targetEnd="//@children.36/@sourceConnections.1/@children.1" sourceEnd="//@children.36/@sourceConnections.1/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="338,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,85" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.30/@sourceConnections.0" name="AcessivelPainelBonus" location="2612,510" size="349,167" id="interfaces/AcessivelPainelBonus" runTimeClassModel="getBonusSelecionado(),executarBonusSelecionado(Lcelulas.Bloco;),getNomeBonusSelecionado(),incrementarNivelBonus(Ljava.lang.String;I),deselecionarBonus()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="163,90">
+      <children xsi:type="editmodel:MethodEditModel" name="deselecionarBonus" id="interfaces/AcessivelPainelBonus#deselecionarBonus()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="executarBonusSelecionado" id="interfaces/AcessivelPainelBonus#executarBonusSelecionado(Lcelulas.Bloco;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBonusSelecionado" id="interfaces/AcessivelPainelBonus#getBonusSelecionado()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNomeBonusSelecionado" id="interfaces/AcessivelPainelBonus#getNomeBonusSelecionado()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="incrementarNivelBonus" id="interfaces/AcessivelPainelBonus#incrementarNivelBonus(Ljava.lang.String;I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.14/@sourceConnections.0" autoLocated="true" id="interfaces/Acessivel&lt;-interfaces/AcessivelPainelBonus" source="//@children.37" target="//@children.20" targetEnd="//@children.37/@sourceConnections.0/@children.1" sourceEnd="//@children.37/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="174,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="135,203" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Posicao" location="80,217" size="260,225" id="outros/Posicao" runTimeClassModel="isAdjacente(Loutros.Posicao;),getX(),posicaoDelta(Loutros.Posicao;),verificaLimites(II),Posicao(II),isPosicaoIgual(Loutros.Posicao;),getY(),y,x">
+    <children xsi:type="editmodel:CompartmentEditModel" size="42,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="x" id="outros/Posicao#x"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="y" id="outros/Posicao#y"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="99,126">
+      <children xsi:type="editmodel:MethodEditModel" name="Posicao" id="outros/Posicao#Posicao(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getX" id="outros/Posicao#getX()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getY" id="outros/Posicao#getY()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isAdjacente" id="outros/Posicao#isAdjacente(Loutros.Posicao;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isPosicaoIgual" id="outros/Posicao#isPosicaoIgual(Loutros.Posicao;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="posicaoDelta" id="outros/Posicao#posicaoDelta(Loutros.Posicao;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="verificaLimites" id="outros/Posicao#verificaLimites(II)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/SaberAdjacente&lt;-outros/Posicao" source="//@children.38" target="//@children.44" targetEnd="//@children.38/@sourceConnections.0/@children.1" sourceEnd="//@children.38/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="260,10" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,95" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/SaberPosicaoIgual&lt;-outros/Posicao" source="//@children.38" target="//@children.9" targetEnd="//@children.38/@sourceConnections.1/@children.1" sourceEnd="//@children.38/@sourceConnections.1/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="119,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="149,95" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.70/@sourceConnections.0" name="IdentificadorSabePosicao" location="1072,217" size="271,99" id="identificadores/IdentificadorSabePosicao" runTimeClassModel="IdentificadorSabePosicao(Ljava.lang.String;),getPosicao()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="152,36">
+      <children xsi:type="editmodel:MethodEditModel" name="IdentificadorSabePosicao" id="identificadores/IdentificadorSabePosicao#IdentificadorSabePosicao(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPosicao" id="identificadores/IdentificadorSabePosicao#getPosicao()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="identificadores/Identificador&lt;-identificadores/IdentificadorSabePosicao" source="//@children.39" target="//@children.2/@sourceConnections.3" targetEnd="//@children.39/@sourceConnections.0/@children.1" sourceEnd="//@children.39/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="135,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="BonusAmpulheta" location="1727,2775" size="259,85" id="bonus/BonusAmpulheta" runTimeClassModel="executarBonusImediato(),BonusAmpulheta(Lpaineis.PainelBonus;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="143,36">
+      <children xsi:type="editmodel:MethodEditModel" name="BonusAmpulheta" id="bonus/BonusAmpulheta#BonusAmpulheta(Lpaineis.PainelBonus;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="executarBonusImediato" id="bonus/BonusAmpulheta#executarBonusImediato()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="bonus/BonusImediato&lt;-bonus/BonusAmpulheta" source="//@children.40" target="//@children.58/@sourceConnections.0" targetEnd="//@children.40/@sourceConnections.0/@children.1" sourceEnd="//@children.40/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="129,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="BonusRaio" location="1574,2928" size="351,85" id="bonus/BonusRaio" runTimeClassModel="getBlocosInfluenciados(Lcelulas.Bloco;),BonusRaio(Lpaineis.PainelBonus;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="142,36">
+      <children xsi:type="editmodel:MethodEditModel" name="BonusRaio" id="bonus/BonusRaio#BonusRaio(Lpaineis.PainelBonus;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBlocosInfluenciados" id="bonus/BonusRaio#getBlocosInfluenciados(Lcelulas.Bloco;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.31/@sourceConnections.0 //@children.18/@sourceConnections.0" autoLocated="true" id="bonus/BonusDestruidorTotal&lt;-bonus/BonusRaio" source="//@children.41" target="//@children.4" targetEnd="//@children.41/@sourceConnections.0/@children.1" sourceEnd="//@children.41/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="175,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="305,85" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Bomba" location="2881,2928" size="277,81" id="elementos/Bomba" runTimeClassModel="Bomba(Lcelulas.Bloco;Loutros.Corrente;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="63,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Bomba" id="elementos/Bomba#Bomba(Lcelulas.Bloco;Loutros.Corrente;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="elementos/ElementoBonus&lt;-elementos/Bomba" source="//@children.42" target="//@children.5/@sourceConnections.0" targetEnd="//@children.42/@sourceConnections.0/@children.1" sourceEnd="//@children.42/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="138,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.28/@sourceConnections.0" name="NiveladorReiniciavel" location="1322,510" size="269,99" id="delegacoes/NiveladorReiniciavel" runTimeClassModel="reporNivelZero(),NiveladorReiniciavel(II)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="126,36">
+      <children xsi:type="editmodel:MethodEditModel" name="NiveladorReiniciavel" id="delegacoes/NiveladorReiniciavel#NiveladorReiniciavel(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="reporNivelZero" id="delegacoes/NiveladorReiniciavel#reporNivelZero()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/ReporNivel&lt;-delegacoes/NiveladorReiniciavel" source="//@children.43" target="//@children.34" targetEnd="//@children.43/@sourceConnections.0/@children.1" sourceEnd="//@children.43/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="113,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="62,95" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="delegacoes/Nivelador&lt;-delegacoes/NiveladorReiniciavel" source="//@children.43" target="//@children.62/@sourceConnections.1" targetEnd="//@children.43/@sourceConnections.1/@children.1" sourceEnd="//@children.43/@sourceConnections.1/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="134,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.38/@sourceConnections.0 //@children.49/@sourceConnections.7" name="SaberAdjacente" location="349,50" size="258,95" id="interfaces/SaberAdjacente" runTimeClassModel="isAdjacente(Loutros.Posicao;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="87,18">
+      <children xsi:type="editmodel:MethodEditModel" name="isAdjacente" id="interfaces/SaberAdjacente#isAdjacente(Loutros.Posicao;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Folha" location="3552,2140" size="270,81" id="elementos/Folha" runTimeClassModel="Folha(Lcelulas.Bloco;Loutros.Corrente;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="56,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Folha" id="elementos/Folha#Folha(Lcelulas.Bloco;Loutros.Corrente;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="elementos/ElementoComCorrente&lt;-elementos/Folha" source="//@children.45" target="//@children.54/@sourceConnections.0" targetEnd="//@children.45/@sourceConnections.0/@children.1" sourceEnd="//@children.45/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="135,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Elmo" location="2658,2140" size="266,81" id="elementos/Elmo" runTimeClassModel="Elmo(Lcelulas.Bloco;Loutros.Corrente;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="52,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Elmo" id="elementos/Elmo#Elmo(Lcelulas.Bloco;Loutros.Corrente;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="elementos/ElementoComCorrente&lt;-elementos/Elmo" source="//@children.46" target="//@children.54/@sourceConnections.0" targetEnd="//@children.46/@sourceConnections.0/@children.1" sourceEnd="//@children.46/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="133,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.61/@sourceConnections.1 //@children.49/@sourceConnections.4" name="SaberNivel" location="1330,50" size="112,95" id="interfaces/SaberNivel" runTimeClassModel="getNivel()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="68,18">
+      <children xsi:type="editmodel:MethodEditModel" name="getNivel" id="interfaces/SaberNivel#getNivel()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.36/@sourceConnections.0 //@children.30/@sourceConnections.1" name="Painel" location="670,217" size="312,243" id="paineis/Painel" runTimeClassModel="jogo,mouseMoved(Ljava.awt.event.MouseEvent;II),mouseReleased(Ljava.awt.event.MouseEvent;II),mouseDragged(Ljava.awt.event.MouseEvent;II),redesenharGrelha(),mousePressed(Ljava.awt.event.MouseEvent;II),mouseExited(Ljava.awt.event.MouseEvent;),iniciar(),Painel(Loutros.Jogo;Lpt.ipleiria.estg.dei.gridpanel.GridPanel;),grelhaPainel">
+    <children xsi:type="editmodel:CompartmentEditModel" size="129,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="grelhaPainel" id="paineis/Painel#grelhaPainel"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jogo" id="paineis/Painel#jogo"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="118,144">
+      <children xsi:type="editmodel:MethodEditModel" name="Painel" id="paineis/Painel#Painel(Loutros.Jogo;Lpt.ipleiria.estg.dei.gridpanel.GridPanel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="iniciar" id="paineis/Painel#iniciar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseDragged" id="paineis/Painel#mouseDragged(Ljava.awt.event.MouseEvent;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseExited" id="paineis/Painel#mouseExited(Ljava.awt.event.MouseEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseMoved" id="paineis/Painel#mouseMoved(Ljava.awt.event.MouseEvent;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mousePressed" id="paineis/Painel#mousePressed(Ljava.awt.event.MouseEvent;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseReleased" id="paineis/Painel#mouseReleased(Ljava.awt.event.MouseEvent;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="redesenharGrelha" id="paineis/Painel#redesenharGrelha()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/Atualizavel&lt;-paineis/Painel" source="//@children.48" target="//@children.70/@sourceConnections.3" targetEnd="//@children.48/@sourceConnections.0/@children.1" sourceEnd="//@children.48/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="156,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="106,95" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Bloco" location="4046,2140" size="355,423" id="celulas/Bloco" runTimeClassModel="isAdjacente(Loutros.Posicao;),setElemento(Lelementos.Elemento;),vizinhosNaoIteramBaixo(),niveladorBloco,atualizar(II),getCellRepresentation(),Bloco(Loutros.Posicao;Lpaineis.PainelPrincipal;I),getElemento(),isBlocoSemElemento(Loutros.Posicao;),setSombra(Z),sombra,getNivel(),incrementarNivelVida(I),incrementarNivelBonus(Ljava.lang.String;I),sOMBRA,destruir(Z),moverElemento(Loutros.Posicao;Lelementos.Elemento;),elemento,decrementarNivel(Z),incrementaNivel()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="217,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="elemento" id="celulas/Bloco#elemento"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="niveladorBloco" id="celulas/Bloco#niveladorBloco"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sOMBRA" id="celulas/Bloco#sOMBRA"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sombra" id="celulas/Bloco#sombra"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="145,288">
+      <children xsi:type="editmodel:MethodEditModel" name="Bloco" id="celulas/Bloco#Bloco(Loutros.Posicao;Lpaineis.PainelPrincipal;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="atualizar" id="celulas/Bloco#atualizar(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="decrementarNivel" id="celulas/Bloco#decrementarNivel(Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="destruir" id="celulas/Bloco#destruir(Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCellRepresentation" id="celulas/Bloco#getCellRepresentation()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getElemento" id="celulas/Bloco#getElemento()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNivel" id="celulas/Bloco#getNivel()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="incrementaNivel" id="celulas/Bloco#incrementaNivel()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="incrementarNivelBonus" id="celulas/Bloco#incrementarNivelBonus(Ljava.lang.String;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="incrementarNivelVida" id="celulas/Bloco#incrementarNivelVida(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isAdjacente" id="celulas/Bloco#isAdjacente(Loutros.Posicao;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isBlocoSemElemento" id="celulas/Bloco#isBlocoSemElemento(Loutros.Posicao;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="moverElemento" id="celulas/Bloco#moverElemento(Loutros.Posicao;Lelementos.Elemento;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setElemento" id="celulas/Bloco#setElemento(Lelementos.Elemento;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setSombra" id="celulas/Bloco#setSombra(Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="vizinhosNaoIteramBaixo" id="celulas/Bloco#vizinhosNaoIteramBaixo()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.57/@sourceConnections.0" autoLocated="true" id="celulas/Celula&lt;-celulas/Bloco" source="//@children.49" target="//@children.19" targetEnd="//@children.49/@sourceConnections.0/@children.1" sourceEnd="//@children.49/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="177,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="207,81" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/Atualizavel&lt;-celulas/Bloco" source="//@children.49" target="//@children.22" targetEnd="//@children.49/@sourceConnections.1/@children.1" sourceEnd="//@children.49/@sourceConnections.1/@children.0" connectionRouterKind="Manual" anchorType="ChopBox">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,89" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="143,95"/>
+      <bendpoints location="4046,2115" secondRelativeDimension="2986,1970" firstRelativeDimension="-44,-47"/>
+      <bendpoints location="391,2115" secondRelativeDimension="-582,1970" firstRelativeDimension="-3698,-225"/>
+      <bendpoints location="391,994" secondRelativeDimension="-563,849" firstRelativeDimension="-3697,-1293"/>
+      <bendpoints location="305,994" secondRelativeDimension="-643,849" firstRelativeDimension="-3782,-1294"/>
+      <bendpoints location="305,485" secondRelativeDimension="-605,347" firstRelativeDimension="-3781,-1779"/>
+      <bendpoints location="670,485" secondRelativeDimension="-274,340" firstRelativeDimension="-3415,-1770"/>
+      <bendpoints location="670,192" secondRelativeDimension="-238,74" firstRelativeDimension="-3414,-2047"/>
+      <bendpoints location="870,192" secondRelativeDimension="-54,47" firstRelativeDimension="-3213,-2040"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/Verificavel&lt;-celulas/Bloco" source="//@children.49" target="//@children.35" targetEnd="//@children.49/@sourceConnections.2/@children.1" sourceEnd="//@children.49/@sourceConnections.2/@children.0" connectionRouterKind="Manual" anchorType="ChopBox">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="171,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="140,95"/>
+      <bendpoints location="4431,2115" secondRelativeDimension="209,1510" firstRelativeDimension="17,-24"/>
+      <bendpoints location="4634,2115" secondRelativeDimension="406,1510" firstRelativeDimension="188,-121"/>
+      <bendpoints location="4634,994" secondRelativeDimension="373,389" firstRelativeDimension="309,-1143"/>
+      <bendpoints location="4340,994" secondRelativeDimension="112,389" firstRelativeDimension="62,-1142"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/IncrementadorNivelBonus&lt;-celulas/Bloco" source="//@children.49" target="//@children.67" targetEnd="//@children.49/@sourceConnections.3/@children.1" sourceEnd="//@children.49/@sourceConnections.3/@children.0" connectionRouterKind="Manual" anchorType="ChopBox">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="194,95"/>
+      <bendpoints location="4046,2115" secondRelativeDimension="1724,1970" firstRelativeDimension="-44,-47"/>
+      <bendpoints location="3267,2115" secondRelativeDimension="964,1970" firstRelativeDimension="-822,-193"/>
+      <bendpoints location="3267,994" secondRelativeDimension="935,849" firstRelativeDimension="-843,-1143"/>
+      <bendpoints location="2612,994" secondRelativeDimension="316,849" firstRelativeDimension="-1475,-1208"/>
+      <bendpoints location="2612,485" secondRelativeDimension="292,340" firstRelativeDimension="-1474,-1661"/>
+      <bendpoints location="2240,485" secondRelativeDimension="-32,340" firstRelativeDimension="-1845,-1697"/>
+      <bendpoints location="2240,192" secondRelativeDimension="-18,47" firstRelativeDimension="-1844,-1963"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/SaberNivel&lt;-celulas/Bloco" source="//@children.49" target="//@children.47" targetEnd="//@children.49/@sourceConnections.4/@children.1" sourceEnd="//@children.49/@sourceConnections.4/@children.0" connectionRouterKind="Manual" anchorType="ChopBox">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,70" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="112,91"/>
+      <bendpoints location="4046,2115" secondRelativeDimension="2559,1974" firstRelativeDimension="-44,-47"/>
+      <bendpoints location="2259,2115" secondRelativeDimension="809,1970" firstRelativeDimension="-1830,-215"/>
+      <bendpoints location="2259,994" secondRelativeDimension="784,849" firstRelativeDimension="-1829,-1235"/>
+      <bendpoints location="1322,994" secondRelativeDimension="-101,849" firstRelativeDimension="-2765,-1273"/>
+      <bendpoints location="1322,485" secondRelativeDimension="-93,340" firstRelativeDimension="-2764,-1750"/>
+      <bendpoints location="1588,485" secondRelativeDimension="139,340" firstRelativeDimension="-2497,-1738"/>
+      <bendpoints location="1588,192" secondRelativeDimension="101,62" firstRelativeDimension="-2496,-2010"/>
+      <bendpoints location="1472,192" secondRelativeDimension="21,47" firstRelativeDimension="-2611,-2015"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/Vizinhanca&lt;-celulas/Bloco" source="//@children.49" target="//@children.32" targetEnd="//@children.49/@sourceConnections.5/@children.1" sourceEnd="//@children.49/@sourceConnections.5/@children.0" connectionRouterKind="Manual" anchorType="ChopBox">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="36,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="138,95"/>
+      <bendpoints location="4431,2115" secondRelativeDimension="1520,1803" firstRelativeDimension="17,-24"/>
+      <bendpoints location="4694,2115" secondRelativeDimension="1776,1803" firstRelativeDimension="248,-137"/>
+      <bendpoints location="4694,994" secondRelativeDimension="1717,688" firstRelativeDimension="360,-1143"/>
+      <bendpoints location="4460,994" secondRelativeDimension="1483,682" firstRelativeDimension="163,-1142"/>
+      <bendpoints location="4460,485" secondRelativeDimension="1483,208" firstRelativeDimension="172,-1650"/>
+      <bendpoints location="2962,485" secondRelativeDimension="73,173" firstRelativeDimension="-1153,-1649"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/IncrementadorNivelVida&lt;-celulas/Bloco" source="//@children.49" target="//@children.59" targetEnd="//@children.49/@sourceConnections.6/@children.1" sourceEnd="//@children.49/@sourceConnections.6/@children.0" connectionRouterKind="Manual" anchorType="ChopBox">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="21,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="171,95"/>
+      <bendpoints location="4177,2115" secondRelativeDimension="1540,1970" firstRelativeDimension="-9,-24"/>
+      <bendpoints location="4177,994" secondRelativeDimension="1493,849" firstRelativeDimension="-76,-1144"/>
+      <bendpoints location="3972,994" secondRelativeDimension="1299,849" firstRelativeDimension="-249,-1143"/>
+      <bendpoints location="3972,485" secondRelativeDimension="1237,351" firstRelativeDimension="-261,-1651"/>
+      <bendpoints location="2600,485" secondRelativeDimension="2,340" firstRelativeDimension="-1486,-1663"/>
+      <bendpoints location="2600,192" secondRelativeDimension="1,47" firstRelativeDimension="-1500,-1942"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/SaberAdjacente&lt;-celulas/Bloco" source="//@children.49" target="//@children.44" targetEnd="//@children.49/@sourceConnections.7/@children.1" sourceEnd="//@children.49/@sourceConnections.7/@children.0" connectionRouterKind="Manual" anchorType="ChopBox">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,104" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="209,95"/>
+      <bendpoints location="4046,2115" secondRelativeDimension="3440,1970" firstRelativeDimension="-44,-47"/>
+      <bendpoints location="80,2115" secondRelativeDimension="-431,1970" firstRelativeDimension="-4009,-225"/>
+      <bendpoints location="80,994" secondRelativeDimension="-417,849" firstRelativeDimension="-4008,-1298"/>
+      <bendpoints location="65,994" secondRelativeDimension="-431,849" firstRelativeDimension="-4022,-1298"/>
+      <bendpoints location="65,485" secondRelativeDimension="-397,340" firstRelativeDimension="-4021,-1784"/>
+      <bendpoints location="430,485" secondRelativeDimension="-78,340" firstRelativeDimension="-3655,-1776"/>
+      <bendpoints location="430,192" secondRelativeDimension="-43,47" firstRelativeDimension="-3654,-2054"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.24/@sourceConnections.0" name="BonusDestruidorParcial" location="50,2775" size="621,85" id="bonus/BonusDestruidorParcial" runTimeClassModel="BonusDestruidorParcial(Lpaineis.PainelBonus;Ljava.lang.String;ILoutros.Posicao;Ljava.lang.String;),destruir(Lcelulas.Bloco;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="143,36">
+      <children xsi:type="editmodel:MethodEditModel" name="BonusDestruidorParcial" id="bonus/BonusDestruidorParcial#BonusDestruidorParcial(Lpaineis.PainelBonus;Ljava.lang.String;ILoutros.Posicao;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="destruir" id="bonus/BonusDestruidorParcial#destruir(Lcelulas.Bloco;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.4/@sourceConnections.0" autoLocated="true" id="bonus/BonusNormal&lt;-bonus/BonusDestruidorParcial" source="//@children.50" target="//@children.3" targetEnd="//@children.50/@sourceConnections.0/@children.1" sourceEnd="//@children.50/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="310,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="286,157" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="PainelPrincipal" location="3551,1019" size="374,1071" id="paineis/PainelPrincipal" runTimeClassModel="criarBlocoComElemento(Lcelulas.Bloco;Loutros.Corrente;),audio(Ljava.lang.String;),grelha,mouseDragged(Ljava.awt.event.MouseEvent;II),iterarElementos(),elementos,carregarNivel(),blocoDestino,iniciar(),escolherElementosAJogar(),criarNovosElementos(),nextInt(I),getElemento(Loutros.Posicao;),naoTemCorrente(Lelementos.Elemento;),destroiNovosGrupos(),iTERACAO,destruicaoTotal(Lcelulas.Bloco;),getMaxX(),getListaBlocos(),criarElemento(Lcelulas.Bloco;Loutros.Corrente;),elementosDoJogo,adicionarListaBlocosComSombra(Lcelulas.Bloco;),nUMERO_DE_BONUS,getMaxY(),eliminarPossiveisGruposIniciais(),limparLinha(I),atualizar(II),trocarElementos(Lcelulas.Bloco;Lcelulas.Bloco;),moverElemento(Lcelulas.Bloco;Loutros.Posicao;Lelementos.Elemento;),PainelPrincipal(Loutros.Jogo;Lpt.ipleiria.estg.dei.gridpanel.GridPanel;),blocos,removerSombras(),mouseMoved(Ljava.awt.event.MouseEvent;II),blocosComSombra,getIteracao(),incrementarNivelBonus(Ljava.lang.String;I),incrementarNivelVida(I),iterar(),blocoOrigem,criarBloco(Lcelulas.Bloco;),mAX_Y,mAX_X,destruicaoParcial(Lelementos.Elemento;),getBloco(Loutros.Posicao;),criarParede(Lcelulas.Parede;),nUMERO_DE_ELEMENTOS,mouseExited(Ljava.awt.event.MouseEvent;),destruir2elementosAleatorios(),isConcluido(),isBlocoSemElemento(Loutros.Posicao;),posicaoMovido,limparGrelha(),removerElementoDaLista(Loutros.Posicao;),elementoPendente,mousePressed(Ljava.awt.event.MouseEvent;II),vizinhosNaoIteramBaixo(Loutros.Posicao;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="203,252">
+      <children xsi:type="editmodel:AttributeEditModel" name="blocoDestino" id="paineis/PainelPrincipal#blocoDestino"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="blocoOrigem" id="paineis/PainelPrincipal#blocoOrigem"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="blocos" id="paineis/PainelPrincipal#blocos"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="blocosComSombra" id="paineis/PainelPrincipal#blocosComSombra"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="elementoPendente" id="paineis/PainelPrincipal#elementoPendente"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="elementos" id="paineis/PainelPrincipal#elementos"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="elementosDoJogo" id="paineis/PainelPrincipal#elementosDoJogo"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="grelha" id="paineis/PainelPrincipal#grelha"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="iTERACAO" id="paineis/PainelPrincipal#iTERACAO"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mAX_X" id="paineis/PainelPrincipal#mAX_X"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mAX_Y" id="paineis/PainelPrincipal#mAX_Y"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nUMERO_DE_BONUS" id="paineis/PainelPrincipal#nUMERO_DE_BONUS"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nUMERO_DE_ELEMENTOS" id="paineis/PainelPrincipal#nUMERO_DE_ELEMENTOS"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="posicaoMovido" id="paineis/PainelPrincipal#posicaoMovido"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="188,756">
+      <children xsi:type="editmodel:MethodEditModel" name="PainelPrincipal" id="paineis/PainelPrincipal#PainelPrincipal(Loutros.Jogo;Lpt.ipleiria.estg.dei.gridpanel.GridPanel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="adicionarListaBlocosComSombra" id="paineis/PainelPrincipal#adicionarListaBlocosComSombra(Lcelulas.Bloco;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="atualizar" id="paineis/PainelPrincipal#atualizar(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="audio" id="paineis/PainelPrincipal#audio(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="carregarNivel" id="paineis/PainelPrincipal#carregarNivel()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="criarBloco" id="paineis/PainelPrincipal#criarBloco(Lcelulas.Bloco;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="criarBlocoComElemento" id="paineis/PainelPrincipal#criarBlocoComElemento(Lcelulas.Bloco;Loutros.Corrente;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="criarElemento" id="paineis/PainelPrincipal#criarElemento(Lcelulas.Bloco;Loutros.Corrente;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="criarNovosElementos" id="paineis/PainelPrincipal#criarNovosElementos()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="criarParede" id="paineis/PainelPrincipal#criarParede(Lcelulas.Parede;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="destroiNovosGrupos" id="paineis/PainelPrincipal#destroiNovosGrupos()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="destruicaoParcial" id="paineis/PainelPrincipal#destruicaoParcial(Lelementos.Elemento;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="destruicaoTotal" id="paineis/PainelPrincipal#destruicaoTotal(Lcelulas.Bloco;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="destruir2elementosAleatorios" id="paineis/PainelPrincipal#destruir2elementosAleatorios()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="eliminarPossiveisGruposIniciais" id="paineis/PainelPrincipal#eliminarPossiveisGruposIniciais()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="escolherElementosAJogar" id="paineis/PainelPrincipal#escolherElementosAJogar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBloco" id="paineis/PainelPrincipal#getBloco(Loutros.Posicao;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getElemento" id="paineis/PainelPrincipal#getElemento(Loutros.Posicao;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getIteracao" id="paineis/PainelPrincipal#getIteracao()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getListaBlocos" id="paineis/PainelPrincipal#getListaBlocos()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMaxX" id="paineis/PainelPrincipal#getMaxX()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMaxY" id="paineis/PainelPrincipal#getMaxY()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="incrementarNivelBonus" id="paineis/PainelPrincipal#incrementarNivelBonus(Ljava.lang.String;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="incrementarNivelVida" id="paineis/PainelPrincipal#incrementarNivelVida(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="iniciar" id="paineis/PainelPrincipal#iniciar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isBlocoSemElemento" id="paineis/PainelPrincipal#isBlocoSemElemento(Loutros.Posicao;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isConcluido" id="paineis/PainelPrincipal#isConcluido()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="iterar" id="paineis/PainelPrincipal#iterar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="iterarElementos" id="paineis/PainelPrincipal#iterarElementos()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="limparGrelha" id="paineis/PainelPrincipal#limparGrelha()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="limparLinha" id="paineis/PainelPrincipal#limparLinha(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseDragged" id="paineis/PainelPrincipal#mouseDragged(Ljava.awt.event.MouseEvent;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseExited" id="paineis/PainelPrincipal#mouseExited(Ljava.awt.event.MouseEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseMoved" id="paineis/PainelPrincipal#mouseMoved(Ljava.awt.event.MouseEvent;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mousePressed" id="paineis/PainelPrincipal#mousePressed(Ljava.awt.event.MouseEvent;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="moverElemento" id="paineis/PainelPrincipal#moverElemento(Lcelulas.Bloco;Loutros.Posicao;Lelementos.Elemento;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="naoTemCorrente" id="paineis/PainelPrincipal#naoTemCorrente(Lelementos.Elemento;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="nextInt" id="paineis/PainelPrincipal#nextInt(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removerElementoDaLista" id="paineis/PainelPrincipal#removerElementoDaLista(Loutros.Posicao;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removerSombras" id="paineis/PainelPrincipal#removerSombras()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="trocarElementos" id="paineis/PainelPrincipal#trocarElementos(Lcelulas.Bloco;Lcelulas.Bloco;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="vizinhosNaoIteramBaixo" id="paineis/PainelPrincipal#vizinhosNaoIteramBaixo(Loutros.Posicao;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="paineis/PainelIteravel&lt;-paineis/PainelPrincipal" source="//@children.51" target="//@children.26/@sourceConnections.0" targetEnd="//@children.51/@sourceConnections.0/@children.1" sourceEnd="//@children.51/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="187,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/Verificavel&lt;-paineis/PainelPrincipal" source="//@children.51" target="//@children.35" targetEnd="//@children.51/@sourceConnections.1/@children.1" sourceEnd="//@children.51/@sourceConnections.1/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="374,10" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,95" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.6/@sourceConnections.0" autoLocated="true" id="interfaces/AcessivelPainelPrincipal&lt;-paineis/PainelPrincipal" source="//@children.51" target="//@children.14" targetEnd="//@children.51/@sourceConnections.2/@children.1" sourceEnd="//@children.51/@sourceConnections.2/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="187,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="108,149" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Caveira" location="3852,2140" size="164,135" id="elementos/Caveira" runTimeClassModel="Caveira(Lcelulas.Bloco;),explodirParcial(),decrementarNivelBloco(),explodirGrupo()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="141,72">
+      <children xsi:type="editmodel:MethodEditModel" name="Caveira" id="elementos/Caveira#Caveira(Lcelulas.Bloco;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="decrementarNivelBloco" id="elementos/Caveira#decrementarNivelBloco()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="explodirGrupo" id="elementos/Caveira#explodirGrupo()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="explodirParcial" id="elementos/Caveira#explodirParcial()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="elementos/ElementoSemCorrente&lt;-elementos/Caveira" source="//@children.52" target="//@children.27" targetEnd="//@children.52/@sourceConnections.0/@children.1" sourceEnd="//@children.52/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,18" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="229,81"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Ampulheta" location="1955,2928" size="294,81" id="elementos/Ampulheta" runTimeClassModel="Ampulheta(Lcelulas.Bloco;Loutros.Corrente;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="80,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Ampulheta" id="elementos/Ampulheta#Ampulheta(Lcelulas.Bloco;Loutros.Corrente;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="elementos/ElementoBonus&lt;-elementos/Ampulheta" source="//@children.53" target="//@children.5/@sourceConnections.0" targetEnd="//@children.53/@sourceConnections.0/@children.1" sourceEnd="//@children.53/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="147,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.16/@sourceConnections.0" name="ElementoEspecial" location="1607,2140" size="392,81" id="elementos/ElementoEspecial" runTimeClassModel="ElementoEspecial(Ljava.lang.String;Lcelulas.Bloco;Loutros.Corrente;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="113,18">
+      <children xsi:type="editmodel:MethodEditModel" name="ElementoEspecial" id="elementos/ElementoEspecial#ElementoEspecial(Ljava.lang.String;Lcelulas.Bloco;Loutros.Corrente;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.10/@sourceConnections.0 //@children.45/@sourceConnections.0 //@children.56/@sourceConnections.0 //@children.69/@sourceConnections.0 //@children.46/@sourceConnections.0 //@children.29/@sourceConnections.0" autoLocated="true" id="elementos/ElementoComCorrente&lt;-elementos/ElementoEspecial" source="//@children.54" target="//@children.68" targetEnd="//@children.54/@sourceConnections.0/@children.1" sourceEnd="//@children.54/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="196,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="207,225" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/Incrementador&lt;-elementos/ElementoEspecial" source="//@children.54" target="//@children.64" targetEnd="//@children.54/@sourceConnections.1/@children.1" sourceEnd="//@children.54/@sourceConnections.1/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="138,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="180,95"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.61/@sourceConnections.3" name="Decrementavel" location="1580,50" size="138,95" id="interfaces/Decrementavel" runTimeClassModel="decrementarNivel()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="114,18">
+      <children xsi:type="editmodel:MethodEditModel" name="decrementarNivel" id="interfaces/Decrementavel#decrementarNivel()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Carne" location="3249,2140" size="273,81" id="elementos/Carne" runTimeClassModel="Carne(Lcelulas.Bloco;Loutros.Corrente;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="59,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Carne" id="elementos/Carne#Carne(Lcelulas.Bloco;Loutros.Corrente;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="elementos/ElementoComCorrente&lt;-elementos/Carne" source="//@children.56" target="//@children.54/@sourceConnections.0" targetEnd="//@children.56/@sourceConnections.0/@children.1" sourceEnd="//@children.56/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="136,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Parede" location="1260,2140" size="317,99" id="celulas/Parede" runTimeClassModel="getCellRepresentation(),Parede(Lpaineis.PainelPrincipal;Loutros.Posicao;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="135,36">
+      <children xsi:type="editmodel:MethodEditModel" name="Parede" id="celulas/Parede#Parede(Lpaineis.PainelPrincipal;Loutros.Posicao;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCellRepresentation" id="celulas/Parede#getCellRepresentation()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="celulas/Celula&lt;-celulas/Parede" source="//@children.57" target="//@children.49/@sourceConnections.0" targetEnd="//@children.57/@sourceConnections.0/@children.1" sourceEnd="//@children.57/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="158,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="BonusTrovao" location="1342,2775" size="355,103" id="bonus/BonusTrovao" runTimeClassModel="executarBonusImediato(),trovoada(IILjava.util.LinkedList;),BonusTrovao(Lpaineis.PainelBonus;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="143,54">
+      <children xsi:type="editmodel:MethodEditModel" name="BonusTrovao" id="bonus/BonusTrovao#BonusTrovao(Lpaineis.PainelBonus;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="executarBonusImediato" id="bonus/BonusTrovao#executarBonusImediato()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="trovoada" id="bonus/BonusTrovao#trovoada(IILjava.util.LinkedList;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.40/@sourceConnections.0" autoLocated="true" id="bonus/BonusImediato&lt;-bonus/BonusTrovao" source="//@children.58" target="//@children.0" targetEnd="//@children.58/@sourceConnections.0/@children.1" sourceEnd="//@children.58/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="177,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="289,103" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.26/@sourceConnections.1 //@children.49/@sourceConnections.6 //@children.20/@sourceConnections.0 //@children.66/@sourceConnections.2" name="IncrementadorNivelVida" location="2420,50" size="270,95" id="interfaces/IncrementadorNivelVida" runTimeClassModel="incrementarNivelVida(I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="132,18">
+      <children xsi:type="editmodel:MethodEditModel" name="incrementarNivelVida" id="interfaces/IncrementadorNivelVida#incrementarNivelVida(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.3" name="Identificador" location="1046,50" size="254,117" id="identificadores/Identificador" runTimeClassModel="nomeImagem,getCellRepresentation(),Identificador(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="115,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="nomeImagem" id="identificadores/Identificador#nomeImagem"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="135,36">
+      <children xsi:type="editmodel:MethodEditModel" name="Identificador" id="identificadores/Identificador#Identificador(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCellRepresentation" id="identificadores/Identificador#getCellRepresentation()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.62/@sourceConnections.1" name="Nivelador" location="1588,217" size="218,189" id="delegacoes/Nivelador" runTimeClassModel="decrementarNivel(),getNivel(),nivelMaximo,incrementarNivel(I),Nivelador(II),isNivelMaximo(),nivel">
+    <children xsi:type="editmodel:CompartmentEditModel" size="94,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="nivel" id="delegacoes/Nivelador#nivel"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nivelMaximo" id="delegacoes/Nivelador#nivelMaximo"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="114,90">
+      <children xsi:type="editmodel:MethodEditModel" name="Nivelador" id="delegacoes/Nivelador#Nivelador(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="decrementarNivel" id="delegacoes/Nivelador#decrementarNivel()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNivel" id="delegacoes/Nivelador#getNivel()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="incrementarNivel" id="delegacoes/Nivelador#incrementarNivel(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isNivelMaximo" id="delegacoes/Nivelador#isNivelMaximo()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/Incrementavel&lt;-delegacoes/Nivelador" source="//@children.61" target="//@children.65" targetEnd="//@children.61/@sourceConnections.0/@children.1" sourceEnd="//@children.61/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="203,85" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.2/@sourceConnections.0" autoLocated="true" id="interfaces/SaberNivel&lt;-delegacoes/Nivelador" source="//@children.61" target="//@children.47" targetEnd="//@children.61/@sourceConnections.1/@children.1" sourceEnd="//@children.61/@sourceConnections.1/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="109,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="56,95" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.2/@sourceConnections.1" autoLocated="true" id="interfaces/SaberNivelMaximo&lt;-delegacoes/Nivelador" source="//@children.61" target="//@children.13" targetEnd="//@children.61/@sourceConnections.2/@children.1" sourceEnd="//@children.61/@sourceConnections.2/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="109,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="82,95" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.2/@sourceConnections.2" autoLocated="true" id="interfaces/Decrementavel&lt;-delegacoes/Nivelador" source="//@children.61" target="//@children.55" targetEnd="//@children.61/@sourceConnections.3/@children.1" sourceEnd="//@children.61/@sourceConnections.3/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="109,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="69,95" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="NiveladorVida" location="2349,510" size="173,99" id="delegacoes/NiveladorVida" runTimeClassModel="NiveladorVida(),isVidaNivelZero()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="106,36">
+      <children xsi:type="editmodel:MethodEditModel" name="NiveladorVida" id="delegacoes/NiveladorVida#NiveladorVida()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isVidaNivelZero" id="delegacoes/NiveladorVida#isVidaNivelZero()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/SaberNivelZeroVida&lt;-delegacoes/NiveladorVida" source="//@children.62" target="//@children.8" targetEnd="//@children.62/@sourceConnections.0/@children.1" sourceEnd="//@children.62/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="163,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,85" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.7/@sourceConnections.0 //@children.43/@sourceConnections.1" autoLocated="true" id="delegacoes/Nivelador&lt;-delegacoes/NiveladorVida" source="//@children.62" target="//@children.61" targetEnd="//@children.62/@sourceConnections.1/@children.1" sourceEnd="//@children.62/@sourceConnections.1/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="86,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="109,189" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Vida" location="3267,1019" size="254,189" id="outros/Vida" runTimeClassModel="incrementarNivelVida(I),niveladorVida,iterar(),getCellRepresentation(),atualizar(II),isVidaNivelZero(),Vida(Lpaineis.PainelVida;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="158,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="niveladorVida" id="outros/Vida#niveladorVida"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="135,108">
+      <children xsi:type="editmodel:MethodEditModel" name="Vida" id="outros/Vida#Vida(Lpaineis.PainelVida;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="atualizar" id="outros/Vida#atualizar(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCellRepresentation" id="outros/Vida#getCellRepresentation()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="incrementarNivelVida" id="outros/Vida#incrementarNivelVida(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isVidaNivelZero" id="outros/Vida#isVidaNivelZero()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="iterar" id="outros/Vida#iterar()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="identificadores/IdentificadorComPainel&lt;-outros/Vida" source="//@children.63" target="//@children.23/@sourceConnections.0" targetEnd="//@children.63/@sourceConnections.0/@children.1" sourceEnd="//@children.63/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="127,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,76"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/SaberNivelZeroVida&lt;-outros/Vida" source="//@children.63" target="//@children.8" targetEnd="//@children.63/@sourceConnections.1/@children.1" sourceEnd="//@children.63/@sourceConnections.1/@children.0" connectionRouterKind="Manual" anchorType="ChopBox">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="182,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="58,95"/>
+      <bendpoints location="3551,994" secondRelativeDimension="-362,682" firstRelativeDimension="23,-24"/>
+      <bendpoints location="4640,994" secondRelativeDimension="655,682" firstRelativeDimension="1074,-106"/>
+      <bendpoints location="4640,485" secondRelativeDimension="614,194" firstRelativeDimension="1074,-560"/>
+      <bendpoints location="4011,485" secondRelativeDimension="57,173" firstRelativeDimension="486,-530"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/Iteravel&lt;-outros/Vida" source="//@children.63" target="//@children.25" targetEnd="//@children.63/@sourceConnections.2/@children.1" sourceEnd="//@children.63/@sourceConnections.2/@children.0" connectionRouterKind="Manual" anchorType="ChopBox">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="90,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="64,95"/>
+      <bendpoints location="3551,994" secondRelativeDimension="416,682" firstRelativeDimension="23,-24"/>
+      <bendpoints location="4580,994" secondRelativeDimension="1429,708" firstRelativeDimension="1014,-105"/>
+      <bendpoints location="4580,485" secondRelativeDimension="1429,215" firstRelativeDimension="1014,-556"/>
+      <bendpoints location="3136,485" secondRelativeDimension="25,173" firstRelativeDimension="-255,-530"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/Atualizavel&lt;-outros/Vida" source="//@children.63" target="//@children.22" targetEnd="//@children.63/@sourceConnections.3/@children.1" sourceEnd="//@children.63/@sourceConnections.3/@children.0" connectionRouterKind="Manual" anchorType="ChopBox">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,41" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="146,77"/>
+      <bendpoints location="3267,994" secondRelativeDimension="2206,868" firstRelativeDimension="-44,-31"/>
+      <bendpoints location="425,994" secondRelativeDimension="-532,849" firstRelativeDimension="-2885,-113"/>
+      <bendpoints location="425,485" secondRelativeDimension="-491,340" firstRelativeDimension="-2884,-600"/>
+      <bendpoints location="1072,485" secondRelativeDimension="75,340" firstRelativeDimension="-2236,-592"/>
+      <bendpoints location="1072,192" secondRelativeDimension="42,47" firstRelativeDimension="-2235,-869"/>
+      <bendpoints location="1046,192" secondRelativeDimension="29,47" firstRelativeDimension="-2260,-869"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.54/@sourceConnections.1" name="Incrementador" location="80,1019" size="221,95" id="interfaces/Incrementador" runTimeClassModel="incrementarNivel(I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="110,18">
+      <children xsi:type="editmodel:MethodEditModel" name="incrementarNivel" id="interfaces/Incrementador#incrementarNivel(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.61/@sourceConnections.0 //@children.23/@sourceConnections.2" name="Incrementavel" location="637,50" size="203,95" id="interfaces/Incrementavel" runTimeClassModel="incrementarNivel(I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="110,18">
+      <children xsi:type="editmodel:MethodEditModel" name="incrementarNivel" id="interfaces/Incrementavel#incrementarNivel(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Jogo" location="4431,2140" size="592,585" id="outros/Jogo" runTimeClassModel="getBonusSelecionado(),janelaJogo,getPontuacao(),Jogo(LinterfaceGrafica.JanelaJogo;Lpt.ipleiria.estg.dei.gridpanel.GridPanel;Lpt.ipleiria.estg.dei.gridpanel.GridPanel;Lpt.ipleiria.estg.dei.gridpanel.GridPanel;),getIteracao(),incrementarNivelBonus(Ljava.lang.String;I),incrementarNivelVida(I),iterar(),painelPrincipal,incrementarPontuacao(I),destruicaoParcial(Lelementos.Elemento;),nextInt(I),getNomeBonusSelecionado(),getBloco(Loutros.Posicao;),random,painelBonus,isConcluido(),destruicaoTotal(Lcelulas.Bloco;),limparGrelha(),painelVida,getMaxX(),tabelaPontuacao,executarBonusSelecionado(Lcelulas.Bloco;),getListaBlocos(),adicionarListaBlocosComSombra(Lcelulas.Bloco;),getMaxY(),terminar(),pontuacao,deselecionarBonus()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="233,126">
+      <children xsi:type="editmodel:AttributeEditModel" name="janelaJogo" id="outros/Jogo#janelaJogo"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="painelBonus" id="outros/Jogo#painelBonus"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="painelPrincipal" id="outros/Jogo#painelPrincipal"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="painelVida" id="outros/Jogo#painelVida"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pontuacao" id="outros/Jogo#pontuacao"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="random" id="outros/Jogo#random"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tabelaPontuacao" id="outros/Jogo#tabelaPontuacao"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="188,396">
+      <children xsi:type="editmodel:MethodEditModel" name="Jogo" id="outros/Jogo#Jogo(LinterfaceGrafica.JanelaJogo;Lpt.ipleiria.estg.dei.gridpanel.GridPanel;Lpt.ipleiria.estg.dei.gridpanel.GridPanel;Lpt.ipleiria.estg.dei.gridpanel.GridPanel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="adicionarListaBlocosComSombra" id="outros/Jogo#adicionarListaBlocosComSombra(Lcelulas.Bloco;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="deselecionarBonus" id="outros/Jogo#deselecionarBonus()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="destruicaoParcial" id="outros/Jogo#destruicaoParcial(Lelementos.Elemento;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="destruicaoTotal" id="outros/Jogo#destruicaoTotal(Lcelulas.Bloco;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="executarBonusSelecionado" id="outros/Jogo#executarBonusSelecionado(Lcelulas.Bloco;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBloco" id="outros/Jogo#getBloco(Loutros.Posicao;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBonusSelecionado" id="outros/Jogo#getBonusSelecionado()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getIteracao" id="outros/Jogo#getIteracao()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getListaBlocos" id="outros/Jogo#getListaBlocos()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMaxX" id="outros/Jogo#getMaxX()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMaxY" id="outros/Jogo#getMaxY()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNomeBonusSelecionado" id="outros/Jogo#getNomeBonusSelecionado()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPontuacao" id="outros/Jogo#getPontuacao()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="incrementarNivelBonus" id="outros/Jogo#incrementarNivelBonus(Ljava.lang.String;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="incrementarNivelVida" id="outros/Jogo#incrementarNivelVida(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="incrementarPontuacao" id="outros/Jogo#incrementarPontuacao(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isConcluido" id="outros/Jogo#isConcluido()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="iterar" id="outros/Jogo#iterar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="limparGrelha" id="outros/Jogo#limparGrelha()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="nextInt" id="outros/Jogo#nextInt(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="terminar" id="outros/Jogo#terminar()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/AcessivelJogo&lt;-outros/Jogo" source="//@children.66" target="//@children.6" targetEnd="//@children.66/@sourceConnections.0/@children.1" sourceEnd="//@children.66/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="147,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="81,57"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/Iteravel&lt;-outros/Jogo" source="//@children.66" target="//@children.25" targetEnd="//@children.66/@sourceConnections.1/@children.1" sourceEnd="//@children.66/@sourceConnections.1/@children.0" connectionRouterKind="Manual" anchorType="ChopBox">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="72,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="82,95"/>
+      <bendpoints location="4754,2115" secondRelativeDimension="1606,1803" firstRelativeDimension="-1,-24"/>
+      <bendpoints location="4754,994" secondRelativeDimension="1603,710" firstRelativeDimension="-14,-1144"/>
+      <bendpoints location="4520,994" secondRelativeDimension="1369,707" firstRelativeDimension="-199,-1143"/>
+      <bendpoints location="4520,485" secondRelativeDimension="1369,215" firstRelativeDimension="-212,-1651"/>
+      <bendpoints location="3136,485" secondRelativeDimension="25,173" firstRelativeDimension="-1386,-1650"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/IncrementadorNivelVida&lt;-outros/Jogo" source="//@children.66" target="//@children.59" targetEnd="//@children.66/@sourceConnections.2/@children.1" sourceEnd="//@children.66/@sourceConnections.2/@children.0" connectionRouterKind="Manual" anchorType="ChopBox">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="24,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="180,95"/>
+      <bendpoints location="4574,2115" secondRelativeDimension="1928,1970" firstRelativeDimension="-15,-24"/>
+      <bendpoints location="4574,994" secondRelativeDimension="1868,849" firstRelativeDimension="-157,-1144"/>
+      <bendpoints location="4032,994" secondRelativeDimension="1355,849" firstRelativeDimension="-587,-1143"/>
+      <bendpoints location="4032,485" secondRelativeDimension="1297,352" firstRelativeDimension="-626,-1651"/>
+      <bendpoints location="2660,485" secondRelativeDimension="54,340" firstRelativeDimension="-1811,-1670"/>
+      <bendpoints location="2660,192" secondRelativeDimension="30,47" firstRelativeDimension="-1830,-1942"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.20/@sourceConnections.1 //@children.49/@sourceConnections.3" name="IncrementadorNivelBonus" location="2083,50" size="304,95" id="interfaces/IncrementadorNivelBonus" runTimeClassModel="incrementarNivelBonus(Ljava.lang.String;I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="141,18">
+      <children xsi:type="editmodel:MethodEditModel" name="incrementarNivelBonus" id="interfaces/IncrementadorNivelBonus#incrementarNivelBonus(Ljava.lang.String;I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.54/@sourceConnections.0" name="ElementoComCorrente" location="1404,1019" size="415,225" id="elementos/ElementoComCorrente" runTimeClassModel="ElementoComCorrente(Ljava.lang.String;Lcelulas.Bloco;Loutros.Corrente;),getNivel(),explodirParcial(),corrente,temCorrente(),setCorrente(Loutros.Corrente;),getCellRepresentation(),explodirGrupo(),atualizarCorrente()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="108,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="corrente" id="elementos/ElementoComCorrente#corrente"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="136,144">
+      <children xsi:type="editmodel:MethodEditModel" name="ElementoComCorrente" id="elementos/ElementoComCorrente#ElementoComCorrente(Ljava.lang.String;Lcelulas.Bloco;Loutros.Corrente;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="atualizarCorrente" id="elementos/ElementoComCorrente#atualizarCorrente()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="explodirGrupo" id="elementos/ElementoComCorrente#explodirGrupo()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="explodirParcial" id="elementos/ElementoComCorrente#explodirParcial()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCellRepresentation" id="elementos/ElementoComCorrente#getCellRepresentation()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNivel" id="elementos/ElementoComCorrente#getNivel()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCorrente" id="elementos/ElementoComCorrente#setCorrente(Loutros.Corrente;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="temCorrente" id="elementos/ElementoComCorrente#temCorrente()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.27/@sourceConnections.0" autoLocated="true" id="elementos/Elemento&lt;-elementos/ElementoComCorrente" source="//@children.68" target="//@children.70" targetEnd="//@children.68/@sourceConnections.0/@children.1" sourceEnd="//@children.68/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="207,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="142,459" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Anel" location="2954,2140" size="265,81" id="elementos/Anel" runTimeClassModel="Anel(Lcelulas.Bloco;Loutros.Corrente;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="51,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Anel" id="elementos/Anel#Anel(Lcelulas.Bloco;Loutros.Corrente;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="elementos/ElementoComCorrente&lt;-elementos/Anel" source="//@children.69" target="//@children.54/@sourceConnections.0" targetEnd="//@children.69/@sourceConnections.0/@children.1" sourceEnd="//@children.69/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="132,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.68/@sourceConnections.0" name="Elemento" location="948,510" size="284,459" id="elementos/Elemento" runTimeClassModel="getBloco(),getPainelPrincipal(),aCair,setBloco(Lcelulas.Bloco;),vizinhosNaoIteramBaixo(),Elemento(Ljava.lang.String;Lcelulas.Bloco;),getCellRepresentation(),listaPosicoes,atualizar(II),explodirTotal(),estaCair(),posicoes,bloco,mover(Loutros.Posicao;),explodirParcial(),podeCair(Loutros.Posicao;),isPosicaoIgual(Loutros.Posicao;),iterar(),explodirGrupo(),saoElementosIguais(Lelementos.Elemento;),dELTAS,getPosicao()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="150,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="aCair" id="elementos/Elemento#aCair"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="bloco" id="elementos/Elemento#bloco"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="dELTAS" id="elementos/Elemento#dELTAS"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="listaPosicoes" id="elementos/Elemento#listaPosicoes"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="posicoes" id="elementos/Elemento#posicoes"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="145,306">
+      <children xsi:type="editmodel:MethodEditModel" name="Elemento" id="elementos/Elemento#Elemento(Ljava.lang.String;Lcelulas.Bloco;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="atualizar" id="elementos/Elemento#atualizar(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="estaCair" id="elementos/Elemento#estaCair()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="explodirGrupo" id="elementos/Elemento#explodirGrupo()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="explodirParcial" id="elementos/Elemento#explodirParcial()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="explodirTotal" id="elementos/Elemento#explodirTotal()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBloco" id="elementos/Elemento#getBloco()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCellRepresentation" id="elementos/Elemento#getCellRepresentation()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPainelPrincipal" id="elementos/Elemento#getPainelPrincipal()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPosicao" id="elementos/Elemento#getPosicao()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isPosicaoIgual" id="elementos/Elemento#isPosicaoIgual(Loutros.Posicao;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="iterar" id="elementos/Elemento#iterar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mover" id="elementos/Elemento#mover(Loutros.Posicao;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="podeCair" id="elementos/Elemento#podeCair(Loutros.Posicao;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="saoElementosIguais" id="elementos/Elemento#saoElementosIguais(Lelementos.Elemento;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setBloco" id="elementos/Elemento#setBloco(Lcelulas.Bloco;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="vizinhosNaoIteramBaixo" id="elementos/Elemento#vizinhosNaoIteramBaixo()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.12/@sourceConnections.0" autoLocated="true" id="identificadores/IdentificadorSabePosicao&lt;-elementos/Elemento" source="//@children.70" target="//@children.39" targetEnd="//@children.70/@sourceConnections.0/@children.1" sourceEnd="//@children.70/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="142,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="135,99" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/Iteravel&lt;-elementos/Elemento" source="//@children.70" target="//@children.25" targetEnd="//@children.70/@sourceConnections.1/@children.1" sourceEnd="//@children.70/@sourceConnections.1/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="284,10" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,95" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/Vizinhanca&lt;-elementos/Elemento" source="//@children.70" target="//@children.32" targetEnd="//@children.70/@sourceConnections.2/@children.1" sourceEnd="//@children.70/@sourceConnections.2/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="284,10" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,95" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.48/@sourceConnections.0" autoLocated="true" id="interfaces/Atualizavel&lt;-elementos/Elemento" source="//@children.70" target="//@children.22" targetEnd="//@children.70/@sourceConnections.3/@children.1" sourceEnd="//@children.70/@sourceConnections.3/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="142,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="73,95" anchorKind="FixedAtEdge"/>
+      <bendpoints location="1364,399" secondRelativeDimension="-80,304" firstRelativeDimension="-12,-27"/>
+      <bendpoints location="1364,124" secondRelativeDimension="-35,29" firstRelativeDimension="-58,-298"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/SaberPosicaoIgual&lt;-elementos/Elemento" source="//@children.70" target="//@children.9" targetEnd="//@children.70/@sourceConnections.4/@children.1" sourceEnd="//@children.70/@sourceConnections.4/@children.0" connectionRouterKind="Manual" anchorType="ChopBox">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,128" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="202,95"/>
+      <bendpoints location="948,485" secondRelativeDimension="630,340" firstRelativeDimension="-44,-60"/>
+      <bendpoints location="80,485" secondRelativeDimension="-130,340" firstRelativeDimension="-911,-219"/>
+      <bendpoints location="80,192" secondRelativeDimension="-72,47" firstRelativeDimension="-910,-472"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Balde" location="2016,2775" size="271,99" id="elementos/Balde" runTimeClassModel="Balde(Lcelulas.Bloco;Loutros.Corrente;),incrementarNivel(I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="110,36">
+      <children xsi:type="editmodel:MethodEditModel" name="Balde" id="elementos/Balde#Balde(Lcelulas.Bloco;Loutros.Corrente;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="incrementarNivel" id="elementos/Balde#incrementarNivel(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="elementos/ElementoEspecial&lt;-elementos/Balde" source="//@children.71" target="//@children.16/@sourceConnections.0" targetEnd="//@children.71/@sourceConnections.0/@children.1" sourceEnd="//@children.71/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="135,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" properties="wireOptions=3;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+</editmodel:ClassDiagramEditModel>
